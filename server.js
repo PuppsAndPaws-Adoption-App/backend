@@ -31,6 +31,14 @@ app.get("/dogs", async (req, res) => {
   res.json(dogs);
 });
 
+//get all dogs in a zip code
+app.get("/zipCode/:zipCode", async (req, res) => {
+  const dogs = await Dog.findAll({
+    where: { zipCode: req.params.zipCode},
+  });
+  res.json(dogs);
+});
+
 //get dog by id
 app.get("/dogs/:id", async (req, res) => {
   const dog = await Dog.findByPk(req.params.id);
