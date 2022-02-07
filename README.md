@@ -15,7 +15,11 @@ Our team will demonstrate the skills we have learned using React in the frontend
 
 - [ ] The application shows the dogs available for adoption.
 
+#### Optional User Stories:
 
+- [ ] Search by postal code.
+- [ ] Search by radius of postal code.
+- [ ] List of locally available pets.
 
 
 # Technologies Used
