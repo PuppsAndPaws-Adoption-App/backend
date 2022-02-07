@@ -1,18 +1,18 @@
 <div>
   <h3>Welcome {{user}}</h3>
-  {{#each sauces}}
+  {{#each dogs}}
     <div>
       <img src="{{this.image}}" />
-      <a href="/sauces/{{id}}">Click to see {{name}}</a>
+      <a href="/dogs/{{id}}">Click to see {{name}}</a>
       <button
         id="btn-{{id}}"
         class="delete-btn"
-        onclick="deleteSauce({{id}})"
+        onclick="deleteDog({{id}})"
       >Delete</button>
     </div>
   {{/each}}
   <div>
-    <a href="/new-sauce" class="new-sauce-btn">Add New Sauce!</a>
+    <a href="/new-dog" class="new-dog-btn">Add New Dog!</a>
   </div>
 </div>
-<script src="/sauces.js"></script>
+<script src="/dogs.js"></script>

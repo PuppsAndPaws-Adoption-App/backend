@@ -9,7 +9,7 @@ app.use(cors());
 
 //Import our database and model
 const { sequelize } = require("./db");
-const { Sauce } = require("./models/sauce");
+const { Dog } = require("./models/dog");
 
 const seed = require("./seed");
 
@@ -25,56 +25,56 @@ seed();
 
 //*************** ROUTES ******************//
 
-//get all sauces
-app.get("/sauces", async (req, res) => {
-  const sauces = await Sauce.findAll();
-  res.json(sauces);
+//get all dogs
+app.get("/dogs", async (req, res) => {
+  const dogs = await Dog.findAll();
+  res.json(dogs);
 });
 
-//get sauce by id
-app.get("/sauces/:id", async (req, res) => {
-  const sauce = await Sauce.findByPk(req.params.id);
-  res.json({ sauce }); //sauce json
+//get dog by id
+app.get("/dogs/:id", async (req, res) => {
+  const dog = await Dog.findByPk(req.params.id);
+  res.json({ dog }); //dog json
 });
 
-//update sauce by id
-app.put("/sauces/:id", async (req, res) => {
-  let updatedSauce = await Sauce.update(req.body, {
+//update dog by id
+app.put("/dogs/:id", async (req, res) => {
+  let updatedDog = await Dog.update(req.body, {
     where: { id: req.params.id },
   });
-  res.send(updatedSauce ? "Updated" : "Update Failed");
+  res.send(updatedDog ? "Updated" : "Update Failed");
 });
 
-//render new-sauce form
-app.get("/new-sauce", async (req, res) => {
-  res.render("newSauceForm");
+//render new-dog form
+app.get("/new-dog", async (req, res) => {
+  res.render("newDogForm");
 });
 
-//render edit-sauce form
-app.get("/edit-sauce/:id", async (req, res) => {
-  const sauce = await Sauce.findByPk(req.params.id);
-  res.render("editSauceForm", { sauce });
+//render edit-dog form
+app.get("/edit-dog/:id", async (req, res) => {
+  const dog = await Dog.findByPk(req.params.id);
+  res.render("editDogForm", { dog });
 });
 
 //Post Route triggered by form submit action
-app.post("/new-sauce", async (req, res) => {
-  //Add sauce to db based on html form data
-  const newSauce = await Sauce.create(req.body);
-  //Find newSauce in db by id
-  const foundSauce = await Sauce.findByPk(newSauce.id);
-  if (foundSauce) {
+app.post("/new-dog", async (req, res) => {
+  //Add dog to db based on html form data
+  const newDog = await Dog.create(req.body);
+  //Find newDog in db by id
+  const foundDog = await Dog.findByPk(newDog.id);
+  if (foundDog) {
     res.send("succeess");
   } else {
     res.send("failed");
   }
 });
 
-//DELETE method, sauces/:id path => Deletes a sauce from db.sqlite
-app.delete("/sauces/:id", async (req, res) => {
-  const deletedSauce = await Sauce.destroy({
+//DELETE method, dogs/:id path => Deletes a dog from db.sqlite
+app.delete("/dogs/:id", async (req, res) => {
+  const deletedDog = await Dog.destroy({
     where: { id: req.params.id },
   });
-  res.send(deletedSauce ? "Deleted" : "Deletion Failed");
+  res.send(deletedDog ? "Deleted" : "Deletion Failed");
 });
 
 //serving is now listening to PORT
