@@ -14,13 +14,17 @@ Our team will demonstrate the skills we have learned using React in the frontend
 #### Essential User Stories:
 
 - [ ] The application shows the dogs available for adoption.
+- [ ] Show age of pets available for adoption.
+- [ ] Description of pets.
+- [ ] Postal code.
 
 #### Optional User Stories:
 
 - [ ] Search by postal code.
 - [ ] Search by radius of postal code.
 - [ ] List of locally available pets.
-
+- [ ] Link to donate to local animal shelter.
+- [ ] Report stray/abandoed animals.
 
 # Technologies Used
 <ul>
