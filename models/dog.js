@@ -10,6 +10,7 @@ Dog.init(
     age: DataTypes.STRING,
     gender: DataTypes.STRING,
     size: DataTypes.STRING,
+    description: DataTypes.STRING,
     zipCode: DataTypes.INTEGER
  
   },
