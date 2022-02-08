@@ -1,8 +1,8 @@
 {
   "data": [
-    { "name": "Maltese", "image": "/img/Maltese.gif", "age":"one", "gender":"male", "size":"10lb","zipCode":"75002" },
-    { "name": "Miniature", "image": "/img/Miniature.gif", "age":"two", "gender":"male", "size":"12lb","zipCode":"75243" },
-    { "name": "Pompom", "image": "/img/Pompom.gif","age":"one", "gender":"female", "size":"15lb","zipCode":"75081"  },
-    { "name": "Yorkshire", "image": "/img/Yorkshire.gif", "age":"one", "gender":"male", "size":"10lb","zipCode":"75001"  }
+    { "name": "Cotton", "image": "/img/Maltese.gif", "age":"one", "gender":"male", "size":"10lb","description": "Maltese-Cotton colour","zipCode":"75002" },
+    { "name": "Dutch", "image": "/img/Miniature.gif", "age":"two", "gender":"male", "size":"12lb","description": "Miniature-Black&Brown Colour","zipCode":"75243" },
+    { "name": "Pompom", "image": "/img/Pompom.gif","age":"one", "gender":"female", "size":"15lb","description": "Pomeranian-Off white colour","zipCode":"75081"  },
+    { "name": "Terri", "image": "/img/Yorkshire.gif", "age":"one", "gender":"male", "size":"10lb","description": "Yorkshire-Brown&Black colour","zipCode":"75001"  }
   ]
 }
