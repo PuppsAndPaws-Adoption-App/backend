@@ -1,7 +1,7 @@
 {
   "data": [
     { "name": "Maltese", "image": "/img/Maltese.gif", "age":"one", "gender":"male", "size":"10lb","zipCode":"75002" },
-    { "name": "Miniature", "image": "/img/Miniature.gif", "age":"two", "gender":"male", "size":"12lb","zipCode":"75002" },
+    { "name": "Miniature", "image": "/img/Miniature.gif", "age":"two", "gender":"male", "size":"12lb","zipCode":"75243" },
     { "name": "Pompom", "image": "/img/Pompom.gif","age":"one", "gender":"female", "size":"15lb","zipCode":"75002"  },
     { "name": "Yorkshire", "image": "/img/Yorkshire.gif", "age":"one", "gender":"male", "size":"10lb","zipCode":"75002"  }
   ]
