@@ -3,6 +3,14 @@
     { "name": "Cotton", "image": "/img/Maltese.gif", "age":"one", "gender":"male", "size":"10lb","description": "Maltese-Cotton colour","zipCode":"75002" },
     { "name": "Dutch", "image": "/img/Miniature.gif", "age":"two", "gender":"male", "size":"12lb","description": "Miniature-Black&Brown Colour","zipCode":"75243" },
     { "name": "Pompom", "image": "/img/Pompom.gif","age":"one", "gender":"female", "size":"15lb","description": "Pomeranian-Off white colour","zipCode":"75081"  },
-    { "name": "Terri", "image": "/img/Yorkshire.gif", "age":"one", "gender":"male", "size":"10lb","description": "Yorkshire-Brown&Black colour","zipCode":"75001"  }
-  ]
+    { "name": "Terri", "image": "/img/Yorkshire.gif", "age":"one", "gender":"male", "size":"10lb","description": "Yorkshire-Brown&Black colour","zipCode":"75001"  },
+    { "name": "Leo", "image": "/img/Lenny.gif","age":"Two", "gender":"Male", "size":"15lb","description": "Lenny-Brown/White colour","zipCode":"75002"  },
+    { "name": "CutyPie", "image": "/img/Itchy.gif","age":"one", "gender":"female", "size":"10lb","description": "Itchy-Brown/White colour","zipCode":"75081"  },
+    { "name": "Pablo", "image": "/img/Fable.gif","age":"one", "gender":"female", "size":"15lb","description": "Fable-Tan/White colour","zipCode":"75002"  },
+    { "name": "Patrick", "image": "/img/Cleo.gif","age":"Two", "gender":"male", "size":"20lb","description": "Cleo-Brown/Black colour","zipCode":"75243"  },
+    { "name": "Calev", "image": "/img/Cabo.gif","age":"Four", "gender":"male", "size":"15lb","description": "Cabo-Brown/white colour","zipCode":"75001"  },
+    { "name": "Tiger", "image": "/img/Rebel.gif","age":"one", "gender":"male", "size":"15lb","description": "Rebel-Black/white colour","zipCode":"75001"  }
+
+
+      ]
 }
