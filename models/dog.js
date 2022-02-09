@@ -7,8 +7,9 @@ Dog.init(
   {
     name: DataTypes.STRING,
     image: DataTypes.STRING,
-    age: DataTypes.STRING,
+    breed: DataTypes.STRING,
     gender: DataTypes.STRING,
+    age: DataTypes.STRING,
     size: DataTypes.STRING,
     description: DataTypes.STRING,
     zipCode: DataTypes.INTEGER
