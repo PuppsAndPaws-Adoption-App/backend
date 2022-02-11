@@ -10,9 +10,9 @@
     { "name": "Pompom", "image": "/img/Pompom.gif",  "breed": "Pomeranian", "gender":"Female", "age":"One year", "size":"15lbs", "description": "Golden Brown and White","zipCode":"75081"  },
     { "name": "Terri", "image": "/img/Yorkshire.gif", "breed": "Yorkshire", "gender":"Male", "age":"One year", "size":"10lbs","description": "Brown/Black ","zipCode":"75001"  },
     { "name": "Leo", "image": "/img/Lenny.gif","breed": "Jack Russell Terrier","gender":"Male", "age":"Two years", "size":"15lbs", "description": "Brown/White","zipCode":"75002"  },
-    { "name": "CutyPie", "image": "/img/Itchy.gif", "breed": "Old English Sheepdog", "gender":"Female", "age":"One year", "size":"10lbs","description": "Shaggy Brown/White","zipCode":"75081"  },
+    { "name": "CutyPie", "image": "/img/Itchy.JPG", "breed": "Old English Sheepdog", "gender":"Female", "age":"One year", "size":"10lbs","description": "Shaggy Brown/White","zipCode":"75081"  },
     { "name": "Pablo", "image": "/img/Fable.gif","breed": "Pitbull", "gender":"Female", "age":"One year", "size":"15lbs", "description": "Tan/White","zipCode":"75002"  },
-    { "name": "Patrick", "image": "/img/Cleo.gif","breed": "Mutt-Mixed", "gender":"Male", "age":"Two years", "size":"20lbs", "description": "Brown/Black","zipCode":"75243"  },
+    { "name": "Patrick", "image": "/img/Cleo.JPG","breed": "Mutt-Mixed", "gender":"Male", "age":"Two years", "size":"20lbs", "description": "Brown/Black","zipCode":"75243"  },
     { "name": "Calev", "image": "/img/Cabo.gif","breed": "Black Mouth Cur","gender":"Male", "age":"Four years","size":"15lbs", "description": "Brown/White","zipCode":"75001"  },
     { "name": "Rebel", "image": "/img/Rebel.gif","breed": "Labrador Retriever", "gender":"Male", "age":"One year", "size":"15lbs", "description": "Black/White","zipCode":"75001"  }
 
