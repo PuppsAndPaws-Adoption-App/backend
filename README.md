@@ -54,11 +54,8 @@ Our team will demonstrate the skills we have learned using React in the frontend
 ![image](https://user-images.githubusercontent.com/94469645/153622117-7fc53192-55ca-48c6-a118-e8e1c2e67ed6.png)
 
 
-![https://saeedshahzad.atlassian.net/jira/software/projects/PPDAA/boards/4)
-
 #### ERD- ENTITY RELATIONSHIP DIAGRAM
 ![![image](https://user-images.githubusercontent.com/61039707/152599386-57dec078-8cdf-4e5c-8c30-411afbb6e07f.png)
-
 
 
 # Testing
