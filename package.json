@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:report": "jest --coverage=true"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
